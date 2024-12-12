@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코딩 학습 프로그램</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        .term {
+            font-weight: bold;
+            color: #5e9ed6;
+        }
+        .definition {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <h2>기초</h2>
+        <div class="term">Visual Studio Code (VSC) 다운로드</div>
+        <div class="definition">
+            VSC는 코딩을 위한 편집기입니다. 설치는 [VSC 다운로드 페이지](https://code.visualstudio.com/)에서 가능합니다. VSC는 코드 작성, 디버깅, Git 통합 등 다양한 기능을 지원합니다.
+        </div>
+
+        <div class="term">Node.js 다운로드 및 적용</div>
+        <div class="definition">
+            Node.js는 서버 사이드 JavaScript 실행 환경입니다. [Node.js 다운로드 페이지](https://nodejs.org/)에서 Node.js를 다운로드한 후, 명령어 창에서 `node -v`로 설치 여부를 확인할 수 있습니다.
+        </div>
+
+        <div class="term">코딩을 해야 하는 이유</div>
+        <div class="definition">
+            코딩은 문제 해결 능력 향상, 창의적 사고 개발, 다양한 직업 기회를 제공합니다. 또한 기술의 발전에 따라 코딩은 현대 사회에서 필수적인 기술로 자리 잡고 있습니다.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>초급</h2>
+
+        <div class="term">변수 (Variable)</div>
+        <div class="definition">
+            변수는 프로그램에서 값을 저장하고 참조하는 공간입니다. 변수는 값을 저장하거나 수정할 수 있습니다. 예: `let x = 10;`
+        </div>
+
+        <div class="term">상수 (Constant)</div>
+        <div class="definition">
+            상수는 한 번 값을 지정한 후 변경할 수 없는 값입니다. 상수는 `const`로 선언합니다. 예: `const PI = 3.14;`
+        </div>
+
+        <div class="term">함수 (Function)</div>
+        <div class="definition">
+            함수는 특정 작업을 수행하는 코드의 집합입니다. 함수는 입력값을 받아 처리하고 결과를 반환할 수 있습니다. 예: `function add(a, b) { return a + b; }`
+        </div>
+
+        <div class="term">조건문 (If statement)</div>
+        <div class="definition">
+            조건문은 주어진 조건에 따라 코드 실행을 제어하는 문장입니다. 예: `if (x > 10) { console.log("x는 10보다 큽니다."); }`
+        </div>
+
+        <div class="term">반복문 (Loop)</div>
+        <div class="definition">
+            반복문은 주어진 조건에 맞게 코드를 반복 실행하는 구조입니다. 예: `for (let i = 0; i < 5; i++) { console.log(i); }`
+        </div>
+
+        <div class="term">배열 (Array)</div>
+        <div class="definition">
+            배열은 여러 개의 값을 하나의 변수로 묶는 자료형입니다. 예: `let arr = [1, 2, 3];`
+        </div>
+
+        <div class="term">객체 (Object)</div>
+        <div class="definition">
+            객체는 키-값 쌍으로 데이터를 저장하는 자료형입니다. 예: `let person = { name: "John", age: 30 };`
+        </div>
+
+        <div class="term">문자열 (String)</div>
+        <div class="definition">
+            문자열은 문자들의 집합입니다. 예: `let name = "Alice";`
+        </div>
+
+        <div class="term">숫자 (Number)</div>
+        <div class="definition">
+            숫자는 수치를 나타내는 자료형입니다. 예: `let age = 25;`
+        </div>
+
+        <div class="term">연산자 (Operator)</div>
+        <div class="definition">
+            연산자는 두 개 이상의 값을 연산하여 결과를 반환하는 기호입니다. 예: `+`, `-`, `*`, `/`
+        </div>
+
+        <div class="term">이벤트 (Event)</div>
+        <div class="definition">
+            이벤트는 사용자나 시스템의 상호작용을 의미합니다. 예를 들어, 클릭, 키 입력 등이 이벤트에 해당합니다.
+        </div>
+
+        <div class="term">클래스 (Class)</div>
+        <div class="definition">
+            클래스는 객체 지향 프로그래밍에서 객체를 생성하는 템플릿입니다. 클래스는 객체의 속성과 메서드를 정의합니다. 예: `class Person { constructor(name) { this.name = name; } }`
+        </div>
+
+        <div class="term">메소드 (Method)</div>
+        <div class="definition">
+            메소드는 객체의 동작을 정의하는 함수입니다. 예: `let person = { name: "Alice", greet: function() { console.log("Hello!"); } };`
+        </div>
+
+        <div class="term">반환 (Return)</div>
+        <div class="definition">
+            `return` 키워드는 함수가 결과를 반환하도록 합니다. 예: `function add(a, b) { return a + b; }`
+        </div>
+
+        <div class="term">파라미터 (Parameter)</div>
+        <div class="definition">
+            파라미터는 함수가 받아들이는 입력값입니다. 예: `function greet(name) { console.log("Hello, " + name); }`
+        </div>
+
+        <div class="term">인수 (Argument)</div>
+        <div class="definition">
+            인수는 함수 호출 시 전달되는 실제 값입니다. 예: `greet("Alice");`에서 `"Alice"`가 인수입니다.
+        </div>
+
+        <div class="term">대입 (Assignment)</div>
+        <div class="definition">
+            대입은 변수에 값을 할당하는 과정입니다. 예: `let x = 10;`
+        </div>
+
+        <div class="term">인덱스 (Index)</div>
+        <div class="definition">
+            배열이나 문자열의 위치를 나타내는 숫자입니다. 예: `arr[0]`은 배열의 첫 번째 요소를 나타냅니다.
+        </div>
+
+        <div class="term">타입 (Type)</div>
+        <div class="definition">
+            데이터의 종류를 나타냅니다. 예: 숫자, 문자열, 객체 등은 각기 다른 데이터 타입입니다.
+        </div>
+
+        <div class="term">함수 호출 (Function call)</div>
+        <div class="definition">
+            함수 호출은 정의된 함수를 실행하는 것을 의미합니다. 예: `add(5, 3);`에서 `add` 함수가 호출됩니다.
+        </div>
+
+        <div class="term">객체 리터럴 (Object literal)</div>
+        <div class="definition">
+            객체 리터럴은 중괄호 `{}` 안에 키-값 쌍을 정의하여 객체를 생성하는 방식입니다. 예: `let obj = { name: "John", age: 30 };`
+        </div>
+
+        <div class="term">배열 리터럴 (Array literal)</div>
+        <div class="definition">
+            배열 리터럴은 대괄호 `[]` 안에 값을 나열하여 배열을 생성하는 방식입니다. 예: `let arr = [1, 2, 3];`
+        </div>
+
+        <div class="term">나머지 연산자 (Modulo operator)</div>
+        <div class="definition">
+            나머지 연산자는 두 수를 나누고 나머지를 반환하는 연산자입니다. 예: `5 % 2`는 `1`을 반환합니다.
+        </div>
+
+        <div class="term">논리 연산자 (Logical operator)</div>
+        <div class="definition">
+            논리 연산자는 조건을 결합하거나 반전시키는 데 사용됩니다. 예: `&&`, `||`, `!`
+        </div>
+
+        <div class="term">비교 연산자 (Comparison operator)</div>
+        <div class="definition">
+            비교 연산자는 두 값을 비교하여 참 또는 거짓을 반환하는 연산자입니다. 예: `==`, `===`, `>`, `<`
+        </div>
+
+        <div class="term">빈 배열 (Empty array)</div>
+        <div class="definition">
+            빈 배열은 요소가 없는 배열입니다. 예: `let arr = [];`
+        </div>
+
+        <div class="term">기본 값 (Default value)</div>
+        <div class="definition">
+            기본 값은 함수나 변수에 설정된 기본값으로, 값이 제공되지 않으면 사용됩니다.
+        </div>
+
+        <div class="term">템플릿 리터럴 (Template literal)</div>
+        <div class="definition">
+            템플릿 리터럴은 문자열 안에 변수나 표현식을 삽입할 수 있는 방법입니다. 예: `` `Hello, ${name}` ``
+        </div>
+
+        <div class="term">변수 선언 (Variable declaration)</div>
+        <div class="definition">
+            변수 선언은 변수를 선언하는 과정입니다. 예: `let x = 10;` 또는 `const y = 20;`
+        </div>
+
+        <div class="term">스코프 (Scope)</div>
+        <div class="definition">
+            스코프는 변수나 함수가 유효한 범위를 정의하는 개념입니다. 예: 글로벌 스코프와 지역 스코프
+        </div>
+
+        <div class="term">글로벌 변수 (Global variable)</div>
+        <div class="definition">
+            글로벌 변수는 프로그램의 모든 곳에서 접근할 수 있는 변수입니다. 예: `let x = 10;` (스크립트 전체에서 사용 가능)
+        </div>
+
+        <div class="term">지역 변수 (Local variable)</div>
+        <div class="definition">
+            지역 변수는 함수나 블록 내에서만 유효한 변수입니다. 예: `let x = 10;` (함수 내에서만 사용)
+        </div>
+
+        <div class="term">에러 (Error)</div>
+        <div class="definition">
+            에러는 프로그램이 예기치 않게 동작하거나 실행을 중단하게 만드는 문제입니다.
+        </div>
+
+        <div class="term">디버깅 (Debugging)</div>
+        <div class="definition">
+            디버깅은 코드에서 발생한 오류를 찾아 수정하는 과정입니다.
+        </div>
+
+        <div class="term">트리거 (Trigger)</div>
+        <div class="definition">
+            트리거는 특정 이벤트가 발생했을 때 실행되는 동작입니다.
+        </div>
+
+        <div class="term">콜백 (Callback)</div>
+        <div class="definition">
+            콜백은 함수의 인수로 전달된 함수로, 주어진 작업이 끝난 후 호출됩니다. 예: `setTimeout(callback, 1000);`
+        </div>
+
+        <div class="term">객체 속성 (Object property)</div>
+        <div class="definition">
+            객체 속성은 객체 내의 특정 데이터를 나타냅니다. 예: `let person = { name: "John" };`에서 `name`은 속성입니다.
+        </div>
+
+        <div class="term">JSON (JavaScript Object Notation)</div>
+        <div class="definition">
+            JSON은 데이터를 교환하기 위한 경량 형식입니다. 예: `{"name":"John","age":30}`
+        </div>
+
+        <div class="term">다형성 (Polymorphism)</div>
+        <div class="definition">
+            다형성은 동일한 메서드가 다양한 방식으로 동작할 수 있도록 하는 객체 지향 프로그래밍의 특성입니다.
+        </div>
+
+        <div class="term">자료형 (Data type)</div>
+        <div class="definition">
+            자료형은 데이터의 종류를 나타냅니다. 예: `string`, `number`, `boolean`
+        </div>
+
+        <div class="term">호출 스택 (Call stack)</div>
+        <div class="definition">
+            호출 스택은 실행 중인 함수의 순서를 추적하는 스택입니다.
+        </div>
+
+        <div class="term">반환값 (Return value)</div>
+        <div class="definition">
+            반환값은 함수가 작업을 마친 후 반환하는 값입니다. 예: `return x + y;`
+        </div>
+
+        <div class="term">함수 표현식 (Function expression)</div>
+        <div class="definition">
+            함수 표현식은 함수를 변수에 할당하는 방식입니다. 예: `let add = function(a, b) { return a + b; };`
+        </div>
+
+        <div class="term">중첩 함수 (Nested function)</div>
+        <div class="definition">
+            중첩 함수는 함수 내부에 정의된 다른 함수를 의미합니다.
+        </div>
+
+        <div class="term">프로토타입 (Prototype)</div>
+        <div class="definition">
+            프로토타입은 객체가 상속하는 속성과 메서드를 정의하는 객체입니다.
+        </div>
+
+        <div class="term">메모리 (Memory)</div>
+        <div class="definition">
+            메모리는 데이터를 저장하는 공간을 의미합니다. 변수나 객체가 메모리에 저장됩니다.
+        </div>
+
+        <div class="term">배열 메소드 (Array method)</div>
+        <div class="definition">
+            배열 메소드는 배열을 조작하는 함수입니다. 예: `push()`, `pop()`, `shift()`, `unshift()`
+        </div>
+
+        <div class="term">객체 메소드 (Object method)</div>
+        <div class="definition">
+            객체 메소드는 객체에 관련된 기능을 수행하는 함수입니다. 예: `Object.keys()`, `Object.values()`
+        </div>
+
+        <div class="term">순환 구조 (Iterative structure)</div>
+        <div class="definition">
+            순환 구조는 반복문을 사용하여 데이터를 순차적으로 처리하는 구조입니다.
+        </div>
+
+        <div class="term">단일 책임 원칙 (Single Responsibility Principle)</div>
+        <div class="definition">
+            단일 책임 원칙은 하나의 함수나 클래스가 오직 하나의 일을 수행해야 한다는 객체 지향 프로그래밍 원칙입니다.
+        </div>
+
+        <div class="term">성능 최적화 (Performance optimization)</div>
+        <div class="definition">
+            성능 최적화는 코드의 실행 속도를 개선하고 리소스 사용을 최소화하는 과정을 의미합니다.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>중급</h2>
+    
+        <div class="term">클로저 (Closure)</div>
+        <div class="definition">
+            클로저는 함수와 그 함수가 선언된 렉시컬 환경의 조합입니다. 클로저는 함수 내부에서 외부 변수에 접근할 수 있습니다. 예: `function outer() { let x = 10; return function inner() { console.log(x); }; }`
+        </div>
+    
+        <div class="term">비동기 (Asynchronous)</div>
+        <div class="definition">
+            비동기는 작업이 완료되기를 기다리지 않고 다른 작업을 수행하는 방식입니다. 예: `setTimeout()`, `fetch()`
+        </div>
+    
+        <div class="term">프로미스 (Promise)</div>
+        <div class="definition">
+            프로미스는 비동기 작업의 완료 또는 실패를 나타내는 객체입니다. 예: `let promise = new Promise((resolve, reject) => { ... });`
+        </div>
+    
+        <div class="term">async/await</div>
+        <div class="definition">
+            `async/await`는 비동기 코드를 더 직관적으로 작성할 수 있게 해주는 구문입니다. 예: `async function fetchData() { let response = await fetch(url); }`
+        </div>
+    
+        <div class="term">에러 처리 (Error handling)</div>
+        <div class="definition">
+            에러 처리는 코드 실행 중 발생할 수 있는 오류를 처리하는 과정입니다. 예: `try { ... } catch (error) { ... }`
+        </div>
+    
+        <div class="term">디버깅 (Debugging)</div>
+        <div class="definition">
+            디버깅은 코드에서 발생한 오류를 찾아 수정하는 과정입니다.
+        </div>
+    
+        <div class="term">재귀 (Recursion)</div>
+        <div class="definition">
+            재귀는 함수가 자기 자신을 호출하는 프로그래밍 기법입니다. 예: `function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); }`
+        </div>
+    
+        <div class="term">동기 (Synchronous)</div>
+        <div class="definition">
+            동기는 작업이 순차적으로 실행되는 방식입니다. 예: `console.log("A"); console.log("B");`
+        </div>
+    
+        <div class="term">이벤트 리스너 (Event listener)</div>
+        <div class="definition">
+            이벤트 리스너는 특정 이벤트가 발생했을 때 실행될 함수를 지정하는 메서드입니다. 예: `element.addEventListener('click', function() { ... });`
+        </div>
+    
+        <div class="term">전역 객체 (Global object)</div>
+        <div class="definition">
+            전역 객체는 모든 코드에서 접근할 수 있는 객체입니다. 예: 브라우저에서는 `window`가 전역 객체입니다.
+        </div>
+    
+        <div class="term">타이머 (Timer)</div>
+        <div class="definition">
+            타이머는 일정 시간이 지난 후 특정 작업을 수행하도록 설정하는 메커니즘입니다. 예: `setTimeout()` 또는 `setInterval()`
+        </div>
+    
+        <div class="term">모듈 (Module)</div>
+        <div class="definition">
+            모듈은 코드의 재사용을 위해 기능별로 나누어진 독립적인 파일 또는 구성 요소입니다. 예: `import { myFunction } from './module.js';`
+        </div>
+    
+        <div class="term">클래스 상속 (Class inheritance)</div>
+        <div class="definition">
+            클래스 상속은 하나의 클래스가 다른 클래스의 속성과 메서드를 물려받는 객체 지향 프로그래밍 개념입니다. 예: `class Dog extends Animal { ... }`
+        </div>
+    
+        <div class="term">생성자 (Constructor)</div>
+        <div class="definition">
+            생성자는 객체가 생성될 때 호출되는 특수한 메서드입니다. 예: `class Person { constructor(name) { this.name = name; } }`
+        </div>
+    
+        <div class="term">프로토타입 체인 (Prototype chain)</div>
+        <div class="definition">
+            프로토타입 체인은 객체가 자신의 메서드와 속성을 찾기 위해 부모 객체를 참조하는 구조입니다.
+        </div>
+    
+        <div class="term">객체 복사 (Object copy)</div>
+        <div class="definition">
+            객체 복사는 객체를 다른 객체로 복사하는 작업입니다. 예: `let newObj = Object.assign({}, oldObj);`
+        </div>
+    
+        <div class="term">비동기 함수 (Asynchronous function)</div>
+        <div class="definition">
+            비동기 함수는 시간이 걸리는 작업을 처리할 때 `async` 키워드를 사용하여 비동기적으로 동작하게 만드는 함수입니다.
+        </div>
+    
+        <div class="term">JSON 파싱 (JSON parsing)</div>
+        <div class="definition">
+            JSON 파싱은 JSON 문자열을 자바스크립트 객체로 변환하는 과정입니다. 예: `let obj = JSON.parse('{"name": "John"}');`
+        </div>
+    
+        <div class="term">콜백 함수 (Callback function)</div>
+        <div class="definition">
+            콜백 함수는 다른 함수에 인수로 전달되어 특정 작업이 끝난 후 호출되는 함수입니다. 예: `setTimeout(callback, 1000);`
+        </div>
+    
+        <div class="term">나머지 매개변수 (Rest parameters)</div>
+        <div class="definition">
+            나머지 매개변수는 함수의 인수를 배열 형태로 받을 수 있게 하는 구문입니다. 예: `function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }`
+        </div>
+    
+        <div class="term">스프레드 연산자 (Spread operator)</div>
+        <div class="definition">
+            스프레드 연산자는 배열이나 객체를 개별 요소로 펼치는 데 사용됩니다. 예: `let newArr = [...arr];`
+        </div>
+    
+        <div class="term">배열 메소드 (Array method)</div>
+        <div class="definition">
+            배열 메소드는 배열을 조작하는 함수입니다. 예: `push()`, `pop()`, `shift()`, `unshift()`
+        </div>
+    
+        <div class="term">이벤트 버블링 (Event bubbling)</div>
+        <div class="definition">
+            이벤트 버블링은 이벤트가 발생한 요소에서 부모 요소로 전파되는 방식입니다.
+        </div>
+    
+        <div class="term">스코프 체인 (Scope chain)</div>
+        <div class="definition">
+            스코프 체인은 변수나 함수가 참조할 수 있는 범위를 나타내는 체인입니다.
+        </div>
+    
+        <div class="term">this 키워드 (This keyword)</div>
+        <div class="definition">
+            `this` 키워드는 함수가 호출될 때 해당 함수의 실행 컨텍스트를 참조하는 특별한 키워드입니다.
+        </div>
+    
+        <div class="term">즉시 실행 함수 (IIFE)</div>
+        <div class="definition">
+            즉시 실행 함수는 선언하자마자 바로 실행되는 함수입니다. 예: `(function() { ... })();`
+        </div>
+    
+        <div class="term">bind 메소드 (Bind method)</div>
+        <div class="definition">
+            `bind` 메소드는 함수를 호출할 때 `this` 값을 지정하여 함수를 고정시키는 메서드입니다.
+        </div>
+    
+        <div class="term">map 함수 (Map function)</div>
+        <div class="definition">
+            `map` 함수는 배열의 각 요소에 대해 주어진 함수를 호출하여 새로운 배열을 반환합니다.
+        </div>
+    
+        <div class="term">reduce 함수 (Reduce function)</div>
+        <div class="definition">
+            `reduce` 함수는 배열의 각 요소를 누적하여 하나의 결과를 반환합니다. 예: `arr.reduce((acc, cur) => acc + cur, 0);`
+        </div>
+    
+        <div class="term">filter 함수 (Filter function)</div>
+        <div class="definition">
+            `filter` 함수는 배열의 요소를 주어진 조건에 맞는 값만 반환하는 메서드입니다.
+        </div>
+    
+        <div class="term">forEach 함수 (forEach function)</div>
+        <div class="definition">
+            `forEach` 함수는 배열의 각 요소에 대해 주어진 함수를 한 번씩 호출하는 메서드입니다.
+        </div>
+    
+        <div class="term">해시맵 (Hashmap)</div>
+        <div class="definition">
+            해시맵은 키와 값을 매핑하여 데이터를 빠르게 조회할 수 있는 자료구조입니다.
+        </div>
+    
+        <div class="term">큐 (Queue)</div>
+        <div class="definition">
+            큐는 먼저 들어간 데이터가 먼저 나오는 FIFO(First In First Out) 자료구조입니다.
+        </div>
+    
+        <div class="term">스택 (Stack)</div>
+        <div class="definition">
+            스택은 나중에 들어간 데이터가 먼저 나오는 LIFO(Last In First Out) 자료구조입니다.
+        </div>
+    
+        <div class="term">메모리 누수 (Memory leak)</div>
+        <div class="definition">
+            메모리 누수는 불필요한 메모리가 해제되지 않아 시스템 성능이 저하되는 현상입니다.
+        </div>
+    
+        <div class="term">알고리즘 (Algorithm)</div>
+        <div class="definition">
+            알고리즘은 문제를 해결하기 위한 단계적 절차나 방법입니다.
+        </div>
+    
+        <div class="term">정렬 (Sorting)</div>
+        <div class="definition">
+            정렬은 데이터를 특정 순서대로 배열하는 작업입니다. 예: 오름차순, 내림차순
+        </div>
+    
+        <div class="term">이터러블 (Iterable)</div>
+        <div class="definition">
+            이터러블은 반복 가능한 객체로, `for...of`와 같은 문법으로 순회할 수 있는 객체입니다.
+        </div>
+    
+        <div class="term">순회 (Iteration)</div>
+        <div class="definition">
+            순회는 배열이나 객체 등의 요소를 하나씩 처리하는 과정을 의미합니다.
+        </div>
+    
+        <div class="term">형 변환 (Type conversion)</div>
+        <div class="definition">
+            형 변환은 한 데이터 타입을 다른 데이터 타입으로 변환하는 과정입니다. 예: `String(123)`
+        </div>
+    
+        <div class="term">동적 타입 (Dynamic typing)</div>
+        <div class="definition">
+            동적 타입은 변수의 데이터 타입이 실행 중에 결정되는 언어 특징입니다.
+        </div>
+    
+        <div class="term">암호화 (Encryption)</div>
+        <div class="definition">
+            암호화는 정보를 읽을 수 없도록 변환하여 보호하는 과정입니다.
+        </div>
+    
+        <div class="term">유효성 검사 (Validation)</div>
+        <div class="definition">
+            유효성 검사는 입력값이나 데이터가 조건에 맞는지 확인하는 과정입니다.
+        </div>
+    
+        <div class="term">OOP (Object-Oriented Programming)</div>
+        <div class="definition">
+            객체 지향 프로그래밍은 데이터를 객체로 캡슐화하고, 상속과 다형성 등을 활용하는 프로그래밍 패러다임입니다.
+        </div>
+    
+        <div class="term">디자인 패턴 (Design patterns)</div>
+        <div class="definition">
+            디자인 패턴은 반복적으로 발생하는 문제를 해결하기 위한 표준화된 해결책입니다.
+        </div>
+    
+        <div class="term">함수형 프로그래밍 (Functional programming)</div>
+        <div class="definition">
+            함수형 프로그래밍은 함수를 일급 객체로 취급하고, 상태 변경을 피하며 순수 함수를 활용하는 프로그래밍 패러다임입니다.
+        </div>
+    
+        <div class="term">팩토리 함수 (Factory function)</div>
+        <div class="definition">
+            팩토리 함수는 객체를 생성하는 함수로, 클래스 없이 객체를 생성할 수 있습니다.
+        </div>
+    
+        <div class="term">게터/세터 (Getter/Setter)</div>
+        <div class="definition">
+            게터는 객체의 속성 값을 반환하는 함수이고, 세터는 객체의 속성 값을 설정하는 함수입니다.
+        </div>
+    
+        <div class="term">컴파일러 (Compiler)</div>
+        <div class="definition">
+            컴파일러는 고급 프로그래밍 언어를 저급 언어로 번역하는 프로그램입니다.
+        </div>
+    
+        <div class="term">인터프리터 (Interpreter)</div>
+        <div class="definition">
+            인터프리터는 프로그램을 한 줄씩 실행하는 방식의 언어 처리기입니다.
+        </div>
+    
+        <div class="term">버전 관리 (Version control)</div>
+        <div class="definition">
+            버전 관리는 소스 코드 변경 사항을 기록하고 관리하는 시스템입니다.
+        </div>
+    
+        <div class="term">Git</div>
+        <div class="definition">
+            Git은 분산형 버전 관리 시스템으로, 코드의 변경 이력을 추적하고 협업을 지원합니다.
+        </div>
+    
+        <div class="term">GitHub</div>
+        <div class="definition">
+            GitHub는 Git을 이용한 코드 저장소 서비스로, 협업을 용이하게 하는 플랫폼입니다.
+        </div>
+    
+        <div class="term">트리 구조 (Tree structure)</div>
+        <div class="definition">
+            트리 구조는 계층적인 관계를 표현하는 자료구조로, 루트와 자식 노드로 구성됩니다.
+        </div>
+    
+        <div class="term">그래프 구조 (Graph structure)</div>
+        <div class="definition">
+            그래프 구조는 노드와 간선으로 이루어지며, 복잡한 관계를 표현하는 자료구조입니다.
+        </div>
+    
+        <div class="term">정렬 알고리즘 (Sorting algorithms)</div>
+        <div class="definition">
+            정렬 알고리즘은 데이터를 특정 기준에 맞게 재배열하는 알고리즘입니다. 예: `버블 정렬`, `삽입 정렬`
+        </div>
+    
+        <div class="term">탐색 알고리즘 (Searching algorithms)</div>
+        <div class="definition">
+            탐색 알고리즘은 데이터 집합에서 특정 항목을 찾는 방법입니다. 예: `이진 탐색`
+        </div>
+    
+        <div class="term">퀵 정렬 (Quick sort)</div>
+        <div class="definition">
+            퀵 정렬은 분할 정복 알고리즘으로, 데이터를 작은 부분으로 나누어 정렬합니다.
+        </div>
+    
+        <div class="term">병합 정렬 (Merge sort)</div>
+        <div class="definition">
+            병합 정렬은 분할 정복을 사용하여 데이터를 정렬하는 알고리즘입니다.
+        </div>
+    
+        <div class="term">해싱 (Hashing)</div>
+        <div class="definition">
+            해싱은 키를 사용하여 데이터를 빠르게 검색하는 기술입니다.
+        </div>
+    
+        <div class="term">해시 테이블 (Hash table)</div>
+        <div class="definition">
+            해시 테이블은 해싱 기법을 사용하여 데이터를 저장하고 빠르게 조회하는 자료구조입니다.
+        </div>
+    
+        <div class="term">분산 시스템 (Distributed system)</div>
+        <div class="definition">
+            분산 시스템은 여러 대의 컴퓨터가 네트워크를 통해 협력하여 작업을 수행하는 시스템입니다.
+        </div>
+    
+        <div class="term">고급 데이터 구조 (Advanced data structures)</div>
+        <div class="definition">
+            고급 데이터 구조는 일반적인 자료구조를 확장하거나 최적화한 구조입니다. 예: `힙`, `트라이`
+        </div>
+    
+        <div class="term">데이터 직렬화 (Data serialization)</div>
+        <div class="definition">
+            데이터 직렬화는 객체나 데이터를 저장하거나 네트워크로 전송할 수 있도록 변환하는 과정입니다.
+        </div>
+    
+        <div class="term">메모리 매핑 (Memory mapping)</div>
+        <div class="definition">
+            메모리 매핑은 디스크 파일이나 다른 데이터 구조를 메모리 주소에 매핑하는 기술입니다.
+        </div>
+    
+        <div class="term">동시성 (Concurrency)</div>
+        <div class="definition">
+            동시성은 여러 작업을 병렬적으로 처리할 수 있는 능력을 의미합니다.
+        </div>
+    
+        <div class="term">동기화 (Synchronization)</div>
+        <div class="definition">
+            동기화는 멀티스레드 환경에서 데이터의 일관성을 유지하기 위해 작업을 제어하는 과정입니다.
+        </div>
+    
+        <div class="term">mutex (뮤텍스)</div>
+        <div class="definition">
+            뮤텍스는 여러 스레드가 공유 자원에 동시에 접근하지 못하도록 제어하는 메커니즘입니다.
+        </div>
+    
+        <div class="term">세마포어 (Semaphore)</div>
+        <div class="definition">
+            세마포어는 리소스의 개수를 제어하여 동시 실행을 관리하는 동기화 기법입니다.
+        </div>
+    
+        <div class="term">deadlock (교착 상태)</div>
+        <div class="definition">
+            교착 상태는 두 개 이상의 프로세스가 서로가 가진 자원을 기다려 무한 대기 상태에 빠지는 현상입니다.
+        </div>
+    
+        <div class="term">메모리 풀 (Memory pool)</div>
+        <div class="definition">
+            메모리 풀은 메모리 할당과 해제를 효율적으로 관리하기 위해 미리 할당된 메모리 영역입니다.
+        </div>
+    
+        <div class="term">쿼리 최적화 (Query optimization)</div>
+        <div class="definition">
+            쿼리 최적화는 데이터베이스의 쿼리를 더 빠르고 효율적으로 실행하도록 개선하는 작업입니다.
+        </div>
+    
+        <div class="term">클러스터링 (Clustering)</div>
+        <div class="definition">
+            클러스터링은 비슷한 특성을 가진 데이터를 그룹화하는 기법입니다.
+        </div>
+    
+        <div class="term">데이터 정규화 (Data normalization)</div>
+        <div class="definition">
+            데이터 정규화는 데이터베이스에서 중복을 줄이고 일관성을 유지하는 과정입니다.
+        </div>
+    
+        <div class="term">캐싱 (Caching)</div>
+        <div class="definition">
+            캐싱은 자주 사용되는 데이터를 미리 저장하여 빠르게 접근할 수 있도록 하는 기술입니다.
+        </div>
+    
+        <div class="term">웹소켓 (WebSocket)</div>
+        <div class="definition">
+            웹소켓은 클라이언트와 서버 간의 양방향 통신을 가능하게 하는 프로토콜입니다.
+        </div>
+    
+        <div class="term">HTTP/2</div>
+        <div class="definition">
+            HTTP/2는 더 빠르고 효율적인 데이터 전송을 위한 HTTP의 최신 버전입니다.
+        </div>
+    
+        <div class="term">WebRTC</div>
+        <div class="definition">
+            WebRTC는 브라우저 간 실시간 통신을 위한 기술입니다.
+        </div>
+    
+        <div class="term">Load Balancing (로드 밸런싱)</div>
+        <div class="definition">
+            로드 밸런싱은 네트워크 트래픽을 여러 서버로 분산시켜 효율적으로 처리하는 기술입니다.
+        </div>
+    
+        <div class="term">CDN (Content Delivery Network)</div>
+        <div class="definition">
+            CDN은 전 세계에 분산된 서버 네트워크를 통해 웹 콘텐츠를 빠르게 전달하는 시스템입니다.
+        </div>
+    
+        <div class="term">GraphQL 서버 (GraphQL server)</div>
+        <div class="definition">
+            GraphQL은 데이터를 요청할 때 필요한 정보만 선택적으로 조회할 수 있는 쿼리 언어입니다.
+        </div>
+    
+        <div class="term">웹 애플리케이션 방화벽 (WAF)</div>
+        <div class="definition">
+            웹 애플리케이션 방화벽은 웹 애플리케이션을 보호하기 위해 들어오는 트래픽을 필터링하는 보안 시스템입니다.
+        </div>
+    
+        <div class="term">Cloud Computing (클라우드 컴퓨팅)</div>
+        <div class="definition">
+            클라우드 컴퓨팅은 인터넷을 통해 원격 서버에서 데이터를 저장하고 처리하는 기술입니다.
+        </div>
+    
+        <div class="term">AWS (Amazon Web Services)</div>
+        <div class="definition">
+            AWS는 아마존이 제공하는 클라우드 컴퓨팅 서비스입니다.
+        </div>
+    
+        <div class="term">Azure</div>
+        <div class="definition">
+            Azure는 마이크로소프트가 제공하는 클라우드 서비스입니다.
+        </div>
+    
+        <div class="term">GCP (Google Cloud Platform)</div>
+        <div class="definition">
+            GCP는 구글이 제공하는 클라우드 컴퓨팅 서비스입니다.
+        </div>
+    
+        <div class="term">SQL 인젝션 (SQL Injection)</div>
+        <div class="definition">
+            SQL 인젝션은 악의적인 사용자가 SQL 쿼리를 삽입하여 데이터베이스를 공격하는 보안 취약점입니다.
+        </div>
+    
+        <div class="term">XSS (Cross-Site Scripting)</div>
+        <div class="definition">
+            XSS는 공격자가 웹 페이지에 악성 스크립트를 삽입하는 보안 취약점입니다.
+        </div>
+    
+        <div class="term">CSRF (Cross-Site Request Forgery)</div>
+        <div class="definition">
+            CSRF는 사용자가 의도하지 않은 요청을 웹사이트에 보내게 만드는 공격입니다.
+        </div>
+    
+        <div class="term">정보 보안 (Information security)</div>
+        <div class="definition">
+            정보 보안은 데이터의 기밀성, 무결성, 가용성을 보호하는 기술입니다.
+        </div>
+    
+        <div class="term">OAuth</div>
+        <div class="definition">
+            OAuth는 사용자의 인증 정보를 외부 서비스와 공유하지 않고 접근 권한을 부여하는 인증 프로토콜입니다.
+        </div>
+    
+        <div class="term">JWT (JSON Web Token)</div>
+        <div class="definition">
+            JWT는 JSON 형식으로 사용자 인증 정보를 안전하게 전송하는 토큰입니다.
+        </div>
+    
+        <div class="term">웹 프레임워크 (Web framework)</div>
+        <div class="definition">
+            웹 프레임워크는 웹 애플리케이션을 개발하는 데 필요한 도구와 라이브러리를 제공하는 프레임워크입니다.
+        </div>
+    
+        <div class="term">Spring Boot</div>
+        <div class="definition">
+            Spring Boot는 자바 기반의 웹 애플리케이션을 개발하기 위한 프레임워크입니다.
+        </div>
+    
+        <div class="term">Django</div>
+        <div class="definition">
+            Django는 파이썬으로 작성된 웹 프레임워크로, 빠르게 웹 애플리케이션을 개발할 수 있게 도와줍니다.
+        </div>
+    
+        <div class="term">Flask</div>
+        <div class="definition">
+            Flask는 파이썬으로 작성된 가벼운 웹 프레임워크입니다.
+        </div>
+    
+        <div class="term">Express.js</div>
+        <div class="definition">
+            Express.js는 Node.js 환경에서 웹 애플리케이션을 개발할 수 있는 프레임워크입니다.
+        </div>
+    
+        <div class="term">Node.js</div>
+        <div class="definition">
+            Node.js는 서버 사이드 JavaScript 실행 환경입니다.
+        </div>
+    
+        <div class="term">React.js</div>
+        <div class="definition">
+            React.js는 사용자 인터페이스를 만들기 위한 자바스크립트 라이브러리입니다.
+        </div>
+    
+        <div class="term">Angular</div>
+        <div class="definition">
+            Angular는 웹 애플리케이션을 개발하기 위한 자바스크립트 프레임워크입니다.
+        </div>
+    </div>
+
+    <div class="glossary">
+        <div class="term">메모리 관리 (Memory management)</div>
+        <div class="definition">
+            메모리 관리는 프로그램이 실행되는 동안 메모리를 효율적으로 할당하고 해제하는 과정을 의미합니다.
+        </div>
+    
+        <div class="term">가비지 컬렉션 (Garbage collection)</div>
+        <div class="definition">
+            가비지 컬렉션은 더 이상 사용되지 않는 객체를 자동으로 식별하여 메모리에서 해제하는 프로세스입니다.
+        </div>
+    
+        <div class="term">최적화 (Optimization)</div>
+        <div class="definition">
+            최적화는 코드, 알고리즘, 시스템 성능을 개선하여 자원 소모를 줄이고 실행 속도를 높이는 작업입니다.
+        </div>
+    
+        <div class="term">병렬 처리 (Parallel processing)</div>
+        <div class="definition">
+            병렬 처리는 여러 작업을 동시에 처리하여 성능을 향상시키는 기술입니다.
+        </div>
+    
+        <div class="term">웹 워커 (Web Worker)</div>
+        <div class="definition">
+            웹 워커는 웹 애플리케이션에서 백그라운드 스레드를 생성하여 UI를 차단하지 않고 데이터를 처리하는 기술입니다.
+        </div>
+    
+        <div class="term">프로세스 (Process)</div>
+        <div class="definition">
+            프로세스는 실행 중인 프로그램의 인스턴스로, 메모리 공간과 리소스를 할당받아 작업을 수행합니다.
+        </div>
+    
+        <div class="term">스레드 (Thread)</div>
+        <div class="definition">
+            스레드는 프로세스 내에서 실행되는 작업 단위로, 멀티스레드를 통해 여러 작업을 동시에 처리할 수 있습니다.
+        </div>
+    
+        <div class="term">이벤트 루프 (Event loop)</div>
+        <div class="definition">
+            이벤트 루프는 비동기 작업을 처리하는 메커니즘으로, JavaScript의 비동기 처리를 관리하는 주체입니다.
+        </div>
+    
+        <div class="term">큐와 스택 (Queue and stack)</div>
+        <div class="definition">
+            큐는 FIFO(선입선출) 방식의 자료구조이며, 스택은 LIFO(후입선출) 방식의 자료구조입니다.
+        </div>
+    
+        <div class="term">메모리 할당 (Memory allocation)</div>
+        <div class="definition">
+            메모리 할당은 프로그램이 실행될 때 필요한 메모리 공간을 할당하는 과정입니다.
+        </div>
+    
+        <div class="term">비트 연산자 (Bitwise operator)</div>
+        <div class="definition">
+            비트 연산자는 이진수로 표현된 숫자들 간의 비트 수준에서 연산을 수행하는 연산자입니다.
+        </div>
+    
+        <div class="term">커널 (Kernel)</div>
+        <div class="definition">
+            커널은 운영체제의 핵심 부분으로, 하드웨어와 소프트웨어 간의 상호작용을 관리합니다.
+        </div>
+    
+        <div class="term">운영체제 (Operating system)</div>
+        <div class="definition">
+            운영체제는 컴퓨터 하드웨어를 관리하고, 사용자와 프로그램이 컴퓨터 자원을 효율적으로 사용할 수 있도록 지원하는 시스템 소프트웨어입니다.
+        </div>
+    
+        <div class="term">데이터베이스 (Database)</div>
+        <div class="definition">
+            데이터베이스는 데이터를 구조화하여 저장하고 관리하는 시스템입니다.
+        </div>
+    
+        <div class="term">SQL (Structured Query Language)</div>
+        <div class="definition">
+            SQL은 데이터베이스에서 데이터를 조회, 수정, 삭제할 수 있는 표준 질의 언어입니다.
+        </div>
+    
+        <div class="term">트랜잭션 (Transaction)</div>
+        <div class="definition">
+            트랜잭션은 데이터베이스에서 실행되는 하나의 작업 단위로, 일관성을 유지하며 데이터의 무결성을 보장합니다.
+        </div>
+    
+        <div class="term">블록체인 (Blockchain)</div>
+        <div class="definition">
+            블록체인은 데이터를 블록 단위로 연결하여 저장하는 분산형 데이터 구조로, 주로 암호화폐와 관련된 기술입니다.
+        </div>
+    
+        <div class="term">암호화 (Cryptography)</div>
+        <div class="definition">
+            암호화는 정보를 보호하기 위해 데이터를 변형하여 원본을 알아볼 수 없게 만드는 기술입니다.
+        </div>
+    
+        <div class="term">네트워크 프로그래밍 (Network programming)</div>
+        <div class="definition">
+            네트워크 프로그래밍은 서로 다른 컴퓨터 시스템 간에 데이터를 전송하고 통신하는 프로그램을 작성하는 기술입니다.
+        </div>
+    
+        <div class="term">REST API</div>
+        <div class="definition">
+            REST API는 HTTP 프로토콜을 사용하여 웹 서비스와 상호작용하는 구조로, 클라이언트와 서버 간의 데이터를 주고받을 수 있습니다.
+        </div>
+    
+        <div class="term">GraphQL</div>
+        <div class="definition">
+            GraphQL은 필요한 데이터만을 쿼리하여 클라이언트가 효율적으로 데이터를 가져올 수 있게 해주는 API 쿼리 언어입니다.
+        </div>
+    
+        <div class="term">프로토콜 (Protocol)</div>
+        <div class="definition">
+            프로토콜은 컴퓨터 네트워크에서 데이터를 전송할 때의 규약과 형식을 정의하는 규칙입니다.
+        </div>
+    
+        <div class="term">서버 사이드 렌더링 (SSR)</div>
+        <div class="definition">
+            서버 사이드 렌더링은 서버에서 HTML을 렌더링하고 클라이언트에 전달하여 페이지 로딩 속도를 빠르게 하는 기법입니다.
+        </div>
+    
+        <div class="term">클라이언트 사이드 렌더링 (CSR)</div>
+        <div class="definition">
+            클라이언트 사이드 렌더링은 클라이언트 측에서 JavaScript를 사용하여 페이지를 렌더링하는 방식입니다.
+        </div>
+    
+        <div class="term">Docker</div>
+        <div class="definition">
+            Docker는 애플리케이션과 그 종속성들을 컨테이너로 묶어 다른 환경에서도 동일하게 실행될 수 있도록 하는 플랫폼입니다.
+        </div>
+    
+        <div class="term">Kubernetes</div>
+        <div class="definition">
+            Kubernetes는 컨테이너화된 애플리케이션의 배포, 관리, 확장을 자동화하는 오픈 소스 플랫폼입니다.
+        </div>
+    
+        <div class="term">CI/CD (Continuous Integration / Continuous Deployment)</div>
+        <div class="definition">
+            CI/CD는 지속적인 통합과 지속적인 배포를 통해 소프트웨어 개발과 배포 과정을 자동화하는 프로세스입니다.
+        </div>
+    
+        <div class="term">GitHub</div>
+        <div class="definition">
+            GitHub는 Git을 기반으로 한 코드 저장소 플랫폼으로, 협업 및 버전 관리 기능을 제공합니다.
+        </div>
+    
+        <div class="term">트리 구조 (Tree structure)</div>
+        <div class="definition">
+            트리 구조는 계층적인 데이터를 나타내는 자료구조로, 루트 노드와 자식 노드로 이루어져 있습니다.
+        </div>
+    
+        <div class="term">그래프 구조 (Graph structure)</div>
+        <div class="definition">
+            그래프 구조는 노드와 간선으로 연결된 데이터를 나타내는 자료구조입니다.
+        </div>
+    
+        <div class="term">정렬 알고리즘 (Sorting algorithms)</div>
+        <div class="definition">
+            정렬 알고리즘은 데이터를 특정 순서에 맞게 재정렬하는 알고리즘입니다.
+        </div>
+    
+        <div class="term">탐색 알고리즘 (Searching algorithms)</div>
+        <div class="definition">
+            탐색 알고리즘은 데이터 집합에서 특정 데이터를 찾는 방법을 정의하는 알고리즘입니다.
+        </div>
+    
+        <div class="term">정규 표현식 (Regular expressions)</div>
+        <div class="definition">
+            정규 표현식은 텍스트에서 특정 패턴을 찾거나 치환하는데 사용되는 문자열입니다.
+        </div>
+    
+        <div class="term">AJAX (Asynchronous JavaScript and XML)</div>
+        <div class="definition">
+            AJAX는 웹 페이지를 다시 로드하지 않고 데이터를 비동기적으로 처리하는 기술입니다.
+        </div>
+    
+        <div class="term">OAuth 2.0</div>
+        <div class="definition">
+            OAuth 2.0은 사용자의 인증 정보를 외부 서비스에 노출하지 않고 안전하게 인증하는 인증 프로토콜입니다.
+        </div>
+    
+        <div class="term">JWT (JSON Web Token)</div>
+        <div class="definition">
+            JWT는 클라이언트와 서버 간에 정보를 안전하게 전송하는 JSON 형식의 인증 토큰입니다.
+        </div>
+    
+        <div class="term">로드 밸런서 (Load Balancer)</div>
+        <div class="definition">
+            로드 밸런서는 네트워크 트래픽을 여러 서버로 분배하여 서비스의 성능과 안정성을 높이는 장치입니다.
+        </div>
+    
+        <div class="term">캐시 (Cache)</div>
+        <div class="definition">
+            캐시는 자주 사용되는 데이터를 임시 저장소에 보관하여 빠르게 접근할 수 있도록 하는 기술입니다.
+        </div>
+    
+        <div class="term">분산 시스템 (Distributed system)</div>
+        <div class="definition">
+            분산 시스템은 여러 대의 컴퓨터가 협력하여 하나의 시스템처럼 동작하는 시스템입니다.
+        </div>
+    
+        <div class="term">웹 소켓 (WebSocket)</div>
+        <div class="definition">
+            웹 소켓은 클라이언트와 서버 간의 양방향 통신을 가능하게 하는 프로토콜입니다.
+        </div>
+    
+        <div class="term">ZeroMQ</div>
+        <div class="definition">
+            ZeroMQ는 고성능의 비동기 메시징 라이브러리로, 메시지 큐 시스템을 간단히 구축할 수 있도록 돕습니다.
+        </div>
+    
+        <div class="term">AMQP (Advanced Message Queuing Protocol)</div>
+        <div class="definition">
+            AMQP는 다양한 메시지 큐와 통신 시스템 간의 상호 운용성을 제공하는 프로토콜입니다.
+        </div>
+    
+        <div class="term">RabbitMQ</div>
+        <div class="definition">
+            RabbitMQ는 AMQP 프로토콜을 기반으로 한 오픈 소스 메시지 브로커 소프트웨어입니다.
+        </div>
+    
+        <div class="term">Pub/Sub 모델 (Publish/Subscribe model)</div>
+        <div class="definition">
+            Pub/Sub 모델은 메시지를 발행하고 구독하는 방식으로, 메시지 발행자가 구독자와 독립적으로 동작합니다.
+        </div>
+    
+        <div class="term">Elixir</div>
+        <div class="definition">
+            Elixir는 높은 동시성 처리 성능을 제공하는 함수형 프로그래밍 언어입니다.
+        </div>
+    
+        <div class="term">Akka</div>
+        <div class="definition">
+            Akka는 분산 시스템에서의 병렬 처리와 비동기 처리를 지원하는 라이브러리입니다.
+        </div>
+    
+        <div class="term">MongoDB</div>
+        <div class="definition">
+            MongoDB는 NoSQL 데이터베이스로, 유연한 데이터 모델을 제공합니다.
+        </div>
+    
+        <div class="term">Redis</div>
+        <div class="definition">
+            Redis는 메모리 기반의 NoSQL 데이터베이스로, 빠른 읽기 및 쓰기 속도를 제공합니다.
+        </div>
+    
+        <div class="term">Cassandra</div>
+        <div class="definition">
+            Cassandra는 분산형 NoSQL 데이터베이스로, 대규모 데이터를 처리하기에 적합합니다.
+        </div>
+    
+        <div class="term">Firebase</div>
+        <div class="definition">
+            Firebase는 Google에서 제공하는 클라우드 플랫폼으로, 실시간 데이터베이스와 다양한 백엔드 서비스를 제공합니다.
+        </div>
+    
+        <div class="term">Socket.io</div>
+        <div class="definition">
+            Socket.io는 웹 애플리케이션에서 실시간 양방향 통신을 가능하게 하는 라이브러리입니다.
+        </div>
+    
+        <div class="term">Spring Framework</div>
+        <div class="definition">
+            Spring Framework는 Java 애플리케이션을 개발하기 위한 강력한 프레임워크입니다.
+        </div>
+    
+        <div class="term">Hibernate</div>
+        <div class="definition">
+            Hibernate는 Java 객체와 관계형 데이터베이스 간의 매핑을 지원하는 프레임워크입니다.
+        </div>
+    
+        <div class="term">JPA (Java Persistence API)</div>
+        <div class="definition">
+            JPA는 Java에서 객체-관계 매핑을 수행하는 API입니다.
+        </div>
+    
+        <div class="term">SQLAlchemy</div>
+        <div class="definition">
+            SQLAlchemy는 Python에서 사용되는 ORM(객체 관계 매핑) 라이브러리입니다.
+        </div>
+    
+        <div class="term">GraphQL</div>
+        <div class="definition">
+            GraphQL은 클라이언트가 필요로 하는 데이터만을 효율적으로 요청할 수 있도록 하는 API 쿼리 언어입니다.
+        </div>
+    
+        <div class="term">웹 서버 (Web server)</div>
+        <div class="definition">
+            웹 서버는 HTTP 프로토콜을 사용하여 클라이언트의 요청을 처리하고 웹 페이지를 제공합니다.
+        </div>
+    
+        <div class="term">Nginx</div>
+        <div class="definition">
+            Nginx는 고성능 웹 서버이자 리버스 프록시 서버입니다.
+        </div>
+    
+        <div class="term">Apache</div>
+        <div class="definition">
+            Apache는 가장 널리 사용되는 웹 서버 중 하나로, HTTP 서버 역할을 합니다.
+        </div>
+    
+        <div class="term">Express.js</div>
+        <div class="definition">
+            Express.js는 Node.js에서 빠르게 서버를 구축할 수 있게 돕는 웹 애플리케이션 프레임워크입니다.
+        </div>
+    
+        <div class="term">JAX-RS</div>
+        <div class="definition">
+            JAX-RS는 Java API로, RESTful 웹 서비스를 구축하는 데 사용됩니다.
+        </div>
+    
+        <div class="term">Sockets</div>
+        <div class="definition">
+            소켓은 네트워크 통신에서 두 장치 간의 데이터 전송을 위한 연결 지점입니다.
+        </div>
+    
+        <div class="term">WebRTC</div>
+        <div class="definition">
+            WebRTC는 실시간 커뮤니케이션을 위한 API로, 브라우저 간의 음성, 비디오 및 데이터 공유를 지원합니다.
+        </div>
+    
+        <div class="term">프로토콜 버퍼 (Protocol Buffers)</div>
+        <div class="definition">
+            프로토콜 버퍼는 데이터를 직렬화하고 전송하기 위한 Google의 언어 중립적인 구조적 데이터 형식입니다.
+        </div>
+    
+        <div class="term">JSON Schema</div>
+        <div class="definition">
+            JSON Schema는 JSON 데이터의 구조와 제약을 정의하는 스키마입니다.
+        </div>
+    
+        <div class="term">In-memory data structures</div>
+        <div class="definition">
+            In-memory 데이터 구조는 데이터를 메모리에 저장하여 빠르게 접근할 수 있게 하는 자료구조입니다.
+        </div>
+    
+        <div class="term">프로그래밍 패러다임 (Programming paradigms)</div>
+        <div class="definition">
+            프로그래밍 패러다임은 문제를 해결하는 데 사용하는 고유한 접근 방식을 의미합니다.
+        </div>
+    
+        <div class="term">함수형 프로그래밍 (Functional programming)</div>
+        <div class="definition">
+            함수형 프로그래밍은 상태 변경을 피하고, 함수 호출을 중심으로 프로그램을 구성하는 프로그래밍 패러다임입니다.
+        </div>
+    
+        <div class="term">객체 지향 프로그래밍 (OOP)</div>
+        <div class="definition">
+            객체 지향 프로그래밍은 객체와 클래스를 중심으로 프로그램을 구성하는 패러다임입니다.
+        </div>
+    
+        <div class="term">동시성 제어 (Concurrency control)</div>
+        <div class="definition">
+            동시성 제어는 여러 프로세스나 스레드가 동시에 실행될 때, 데이터 무결성을 보장하는 기술입니다.
+        </div>
+    
+        <div class="term">Haskell</div>
+        <div class="definition">
+            Haskell은 순수 함수형 프로그래밍 언어로, 수학적 모델링에 강점을 가진 언어입니다.
+        </div>
+    
+        <div class="term">TypeScript</div>
+        <div class="definition">
+            TypeScript는 JavaScript의 상위 집합으로, 정적 타입 검사를 제공하는 프로그래밍 언어입니다.
+        </div>
+    
+        <div class="term">Solidity</div>
+        <div class="definition">
+            Solidity는 Ethereum 스마트 계약을 작성하는 데 사용되는 프로그래밍 언어입니다.
+        </div>
+    
+        <div class="term">Deno</div>
+        <div class="definition">
+            Deno는 TypeScript와 JavaScript로 서버 사이드 애플리케이션을 개발할 수 있는 런타임입니다.
+        </div>
+    
+        <div class="term">Blazor</div>
+        <div class="definition">
+            Blazor는 C#을 사용하여 웹 애플리케이션을 작성할 수 있게 해주는 웹 프레임워크입니다.
+        </div>
+    
+        <div class="term">D3.js</div>
+        <div class="definition">
+            D3.js는 데이터를 기반으로 웹 페이지에서 동적이고 인터랙티브한 시각화를 만드는 JavaScript 라이브러리입니다.
+        </div>
+    
+        <div class="term">AngularJS</div>
+        <div class="definition">
+            AngularJS는 JavaScript를 사용하여 싱글 페이지 애플리케이션(SPA)을 구축하는 프레임워크입니다.
+        </div>
+    
+        <div class="term">WebAssembly</div>
+        <div class="definition">
+            WebAssembly는 웹 브라우저에서 고성능 코드를 실행할 수 있게 해주는 새로운 이진 형식의 실행 환경입니다.
+        </div>
+    
+        <div class="term">NativeScript</div>
+        <div class="definition">
+            NativeScript는 웹 기술을 사용하여 네이티브 모바일 애플리케이션을 개발할 수 있게 돕는 프레임워크입니다.
+        </div>
+    
+        <div class="term">UI/UX 디자인 (UI/UX design)</div>
+        <div class="definition">
+            UI/UX 디자인은 사용자의 경험을 최적화하기 위해 웹 및 애플리케이션의 인터페이스를 설계하는 과정입니다.
+        </div>
+    
+        <div class="term">데이터 시각화 (Data visualization)</div>
+        <div class="definition">
+            데이터 시각화는 데이터를 시각적으로 표현하여 쉽게 이해하고 분석할 수 있도록 돕는 기술입니다.
+        </div>
+    
+        <div class="term">Kotlin</div>
+        <div class="definition">
+            Kotlin은 Java와 호환되는 현대적인 프로그래밍 언어로, Android 개발에 많이 사용됩니다.
+        </div>
+    
+        <div class="term">Swift</div>
+        <div class="definition">
+            Swift는 iOS와 macOS 애플리케이션 개발을 위한 Apple의 프로그래밍 언어입니다.
+        </div>
+    
+        <div class="term">Go 언어 (Go language)</div>
+        <div class="definition">
+            Go 언어는 Google에서 개발한 고성능 프로그래밍 언어로, 시스템 개발에 적합합니다.
+        </div>
+    
+        <div class="term">Rust 언어 (Rust language)</div>
+        <div class="definition">
+            Rust는 메모리 안전성을 제공하면서 고성능을 목표로 하는 시스템 프로그래밍 언어입니다.
+        </div>
+    
+        <div class="term">Terraform</div>
+        <div class="definition">
+            Terraform은 인프라스트럭처를 코드로 정의하고 관리하는 도구입니다.
+        </div>
+    
+        <div class="term">Prometheus</div>
+        <div class="definition">
+            Prometheus는 시스템 모니터링 및 경고를 위한 오픈 소스 도구입니다.
+        </div>
+    
+        <div class="term">Grafana</div>
+        <div class="definition">
+            Grafana는 다양한 데이터 소스를 시각화하고 대시보드를 생성하는 오픈 소스 분석 도구입니다.
+        </div>
+    
+        <div class="term">Elasticsearch</div>
+        <div class="definition">
+            Elasticsearch는 빠르고 확장성이 뛰어난 검색 및 분석 엔진입니다.
+        </div>
+    
+        <div class="term">Splunk</div>
+        <div class="definition">
+            Splunk는 대규모 데이터 로그를 수집, 인덱싱, 분석하는 플랫폼입니다.
+        </div>
+    
+        <div class="term">CloudWatch</div>
+        <div class="definition">
+            CloudWatch는 AWS에서 제공하는 시스템 모니터링 서비스입니다.
+        </div>
+    
+        <div class="term">Helm</div>
+        <div class="definition">
+            Helm은 Kubernetes 애플리케이션을 관리하는 패키지 관리 도구입니다.
+        </div>
+    
+        <div class="term">CI/CD 파이프라인 (CI/CD pipeline)</div>
+        <div class="definition">
+            CI/CD 파이프라인은 코드 작성부터 배포까지의 자동화된 프로세스입니다.
+        </div>
+    
+        <div class="term">Jenkins</div>
+        <div class="definition">
+            Jenkins는 CI/CD 프로세스를 자동화하는 오픈 소스 도구입니다.
+        </div>
+    
+        <div class="term">Travis CI</div>
+        <div class="definition">
+            Travis CI는 GitHub와 통합되어 CI/CD 파이프라인을 지원하는 도구입니다.
+        </div>
+    
+        <div class="term">GitLab CI</div>
+        <div class="definition">
+            GitLab CI는 GitLab의 CI/CD 도구로, 코드의 지속적인 통합과 배포를 지원합니다.
+        </div>
+    
+        <div class="term">CircleCI</div>
+        <div class="definition">
+            CircleCI는 자동화된 빌드, 테스트, 배포 시스템을 제공하는 CI/CD 도구입니다.
+        </div>
+    
+        <div class="term">웹 해킹 (Web hacking)</div>
+        <div class="definition">
+            웹 해킹은 웹 애플리케이션의 취약점을 이용하여 불법적으로 시스템에 접근하는 행위입니다.
+        </div>
+    
+        <div class="term">인공지능 (AI)</div>
+        <div class="definition">
+            인공지능은 기계가 인간처럼 사고하고 학습하는 기술입니다.
+        </div>
+    
+        <div class="term">머신 러닝 (Machine learning)</div>
+        <div class="definition">
+            머신 러닝은 데이터에서 패턴을 학습하여 예측 및 결정을 자동으로 수행하는 알고리즘입니다.
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>
